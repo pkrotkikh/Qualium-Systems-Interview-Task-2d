@@ -9,8 +9,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -58,17 +56,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12892}
     - Class: 114
-      Script: {instanceID: 13760}
+      Script: {instanceID: 12894}
     - Class: 114
-      Script: {instanceID: 14308}
+      Script: {instanceID: 13762}
     - Class: 114
-      Script: {instanceID: 14486}
+      Script: {instanceID: 14310}
     - Class: 114
-      Script: {instanceID: 15122}
+      Script: {instanceID: 14488}
     - Class: 114
-      Script: {instanceID: 15214}
+      Script: {instanceID: 15124}
     - Class: 114
-      Script: {instanceID: 20766}
+      Script: {instanceID: 15216}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -294,6 +292,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: db513ed553d8e411a29c194f9133287b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LineDrawer
   - hash:
       serializedVersion: 2
       Hash: b424b4eeb810aecb0ff91c62639241e9
@@ -588,14 +592,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: db513ed553d8e411a29c194f9133287b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LineDrawer
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/User/unityProjects/Games/09Interview Tasks/Qualium Systems
-    Interview Task 2d/Qualium Systems Interview Task 2d.apk
+  playerPath: C:/UnityProjects/Games/09Interview Tasks/Qualium Systems Interview
+    Task 2d/Qualium Systems Interview Task 2d.apk
