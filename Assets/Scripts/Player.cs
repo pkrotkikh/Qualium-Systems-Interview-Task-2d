@@ -42,12 +42,12 @@ public class Player : MonoBehaviour
             //Change rotation
             Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
             transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * changeRotationSpeed);
+            lineDrawer.DrawLines();
 
             yield return null;
         }
 
         transform.position = endPoint;
-        lineDrawer.DrawLines();
         Transform destination = WaypointController.waypointsQueue.Dequeue();
         Destroy(destination.gameObject);
         isMoving = false;
